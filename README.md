@@ -83,6 +83,5 @@ idk 💀
             video.play();
         }
     </script>
-</body>
-</html>
+
 
