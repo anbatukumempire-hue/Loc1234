@@ -1,0 +1,45 @@
+#EXTM3U url-tvg="https://vnepg.site/epg.xml.gz"
+#EXTINF:-1 tvg-id="vtv1-hd" group-title="Kênh VTV" tvg-logo="https://freem3u.xyz/static/images/vtv/vtv1.png",VTV1
+https://live.fptplay53.net/fnxhd1/vtv1hd_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="vtv2-hd" group-title="Kênh VTV" tvg-logo="https://freem3u.xyz/static/images/vtv/vtv2.png",VTV2
+https://live.fptplay53.net/fnxhd1/vtv2_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="vtv3-hd" group-title="Kênh VTV" tvg-logo="https://freem3u.xyz/static/images/vtv/vtv3.png",VTV3
+https://live.fptplay53.net/fnxhd1/vtv3hd_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="vtv4-hd" group-title="Kênh VTV" tvg-logo="https://freem3u.xyz/static/images/vtv/vtv4.png",VTV4
+https://live.fptplay53.net/fnxch2/vtv4hd_abr.smil/chunklist_b1800000.m3u8
+#EXTINF:-1 tvg-id="vtv5-hd" group-title="Kênh VTV" tvg-logo="https://freem3u.xyz/static/images/vtv/vtv5.png",VTV5
+https://live.fptplay53.net/epzch2/vtv5hd_abr.smil/chunklist_b1800000.m3u8
+#EXTINF:-1 tvg-id="vtv-can-tho" group-title="Kênh VTV" tvg-logo="https://freem3u.xyz/static/images/vtv/vtv6.png",VTV Cần Thơ
+https://live.fptplay53.net/fnxhd1/vtvcantho_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="vtv7-hd" group-title="Kênh VTV" tvg-logo="https://freem3u.xyz/static/images/vtv/vtv7.png",VTV7
+https://live.fptplay53.net/fnxhd1/vtv7hd_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="vtv8-hd" group-title="Kênh VTV" tvg-logo="https://freem3u.xyz/static/images/vtv/vtv8.png",VTV8
+https://live.fptplay53.net/epzhd1/vtv8hd_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="vtv9-hd" group-title="Kênh VTV" tvg-logo="https://freem3u.xyz/static/images/vtv/vtv9.png",VTV9
+https://live.fptplay53.net/fnxhd1/vtv9_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="vtv5-tay-nam-bo" group-title="Kênh VTV" tvg-logo="https://freem3u.xyz/static/images/vtv/vtv5_tnb.png",VTV5 Tây Nam Bộ
+https://live.fptplay53.net/fnxhd1/vtv5tnb_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="vtv5-tay-nguyen" group-title="Kênh VTV" tvg-logo="https://freem3u.xyz/static/images/vtv/vtv5_tn.png",VTV5 Tây Nguyên
+https://live.fptplay53.net/fnxhd1/vtv5taynguyen_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="vietnam-today" group-title="Kênh VTV" tvg-logo="https://freem3u.xyz/static/images/vtv/vietnam_today.png",Vietnam Today
+https://live.fptplay53.net/fnxhd1/vntoday_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="vinh-long-1" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/vinhlong1.png",Vĩnh Long 1
+https://live.fptplay53.net/epzch2/vinhlong1_abr.smil/chunklist_b1800000.m3u8
+#EXTINF:-1 tvg-id="vinh-long-2" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/vinhlong2.png",Vĩnh Long 2
+https://live.fptplay53.net/epzhd2/vinhlong2_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="vinh-long-3" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/vinhlong3.png",Vĩnh Long 3
+https://live.fptplay53.net/epzch2/vinhlong3_abr.smil/chunklist_b1800000.m3u8
+#EXTINF:-1 tvg-id="vinh-long-4" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/vinhlong4.png",Vĩnh Long 4
+https://live.fptplay53.net/epzhd2/vinhlong4hd_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="vinh-long-5" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/vinhlong5.png",Vĩnh Long 5
+https://60acee235f4d5.streamlock.net/THTV/travinhtv/chunklist_w1262257399.m3u8?_xtfc=63a12a6c70b14c1ab29726e849518ebf&_xt=1758942424
+#EXTINF:-1 tvg-id="an-giang-1" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/caicach/angiang1.png",An Giang 1
+https://live.fptplay53.net/epzsd1/angiang01_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="an-giang-2" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/caicach/angiang2.png",An Giang 2
+https://live.fptplay53.net/epzsd1/angiang_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="an-giang-3" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/caicach/angiang3.png",An Giang 3
+https://tv.angiangtv.vn/live/kgtv1/kgtv1.m3u8?_xtfc=92287dbabb0f0c3d13bc0b882b6ea948&_xt=1759020565
+#EXTINF:-1 tvg-id="tay-ninh-1" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/caicach/tayninh1.png",Tây Ninh 1
+https://cdn.la34.com.vn/live/2851dc2c9af68834814a89e61db0faee561/chunklist.m3u8
+#EXTINF:-1 tvg-id="tay-ninh-2" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/caicach/tayninh2.png",Tây Ninh 2
+https://live.fptplay53.net/epzsd1/tayninhhd_hls.smil/chunklist_b2500000.m3u8
