@@ -42,4 +42,39 @@ https://tv.angiangtv.vn/live/kgtv1/kgtv1.m3u8?_xtfc=92287dbabb0f0c3d13bc0b882b6e
 #EXTINF:-1 tvg-id="tay-ninh-1" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/caicach/tayninh1.png",Tây Ninh 1
 https://cdn.la34.com.vn/live/2851dc2c9af68834814a89e61db0faee561/chunklist.m3u8
 #EXTINF:-1 tvg-id="tay-ninh-2" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/caicach/tayninh2.png",Tây Ninh 2
+
 https://live.fptplay53.net/epzsd1/tayninhhd_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="binh-duong-1" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/binhduong1.png",Bình Dương 1
+https://live.fptplay53.net/epzhd2/btv1_hls.smil/chunklist_b1800000.m3u8
+#EXTINF:-1 tvg-id="binh-duong-2" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/binhduong2.png",Bình Dương 2
+https://live.fptplay53.net/epzhd2/btv2_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="binh-duong-9" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/anvien.png",Bình Dương 9
+https://live.fptplay53.net/fnxsd1/btv9_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="can-tho-1" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/caicach/cantho1_new.png",Cần Thơ 1
+https://live.fptplay53.net/epzsd1/cantho_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="can-tho-2" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/caicach/cantho2_new.png",Cần Thơ 2
+https://live.fptplay53.net/epzsd1/cantho02_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="can-tho-3" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/caicach/cantho3_new.png",Cần Thơ 3
+https://live.fptplay53.net/epzsd1/cantho03_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="hai-phong" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/haiphong.png",Hải Phòng
+https://live.fptplay53.net/fnxsd1/haiphong_hls.smil/chunklist_b1800000.m3u8
+#EXTINF:-1 tvg-id="hai-phong-plus" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/haiphongplus.png",Hải Phòng +
+https://live.mediatech.vn/live/28548ca35823d41426d8b3da7ed82bdab13/chunklist.m3u8
+#EXTINF:-1 tvg-id="hai-phong-3" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/caicach/haiphong3.png",Hải Phòng 3
+https://live.fptplay53.net/fnxsd1/haiphong03_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="lam-dong-1" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/caicach/lamdong1.png",Lâm Đồng 1
+https://live.fptplay53.net/epzsd1/lamdong_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="lam-dong-2" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/caicach/lamdong2.png",Lâm Đồng 2
+https://live.fptplay53.net/epzsd1/lamdong02_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="lam-dong-3" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/caicach/lamdong3.png",Lâm Đồng 3
+https://cloudstreamthdn.tek4tv.vn/live/smil:daknong.smil/chunklist_w1929312326_b3128000_sleng.m3u8?_xtfc=69931cfcf49a23ab8556d964918ea686&_xt=1759472708
+#EXTINF:-1 tvg-id="ba-ria-vung-tau" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/vungtau.png",Bà Rịa Vũng Tàu
+https://live.fptplay53.net/epzsd1/bariavungtau_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="ca-mau" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/camau.png",Cà Mau
+https://live.fptplay53.net/epzsd1/camau_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="dong-nai-1" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/caicach/dongnai1.png",Đồng Nai 1
+https://live.fptplay53.net/epzsd1/dongnai2_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="dong-nai-2" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/caicach/dongnai2.png",Đồng Nai 2
+https://live.fptplay53.net/epzsd1/dongnai2_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="dong-nai-3" group-title="Kênh địa phương" tvg-logo="https://freem3u.xyz/static/images/diaphuong/caicach/dongnai3.png",Đồng Nai 3
+https://livecdn-vthcm-gcore.vieon.vn/131054d8b12efbf64f5f62de8a56e9b1/1761195201000/livetv/enc/43ec53af7a809687be1a97622aec2eff/tracks-a1/index.fmp4.m3u8
