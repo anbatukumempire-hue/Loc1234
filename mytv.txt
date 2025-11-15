@@ -1,0 +1,458 @@
+#EXTM3U url-tvg="http://lichphatsong.site/schedule/epg.xml"
+#------------------------VTV------------------------#
+#EXTINF:0 tvg-id="vtv1hd" group-title=" VTV" tvg-logo="https://i.imgur.com/nfkmvAY.png" catchup="default" catchup-days="2" catchup-source="http://sv.cvtv.xyz:3000/mytvod.m3u8?id=210&time=${start}&offset=${duration},VTV1 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+http://khaitv.giize.com:1979/mytv/new/get.php?id=210
+#EXTINF:0 tvg-id="vtv2hd" group-title=" VTV" tvg-logo="https://i.imgur.com/BVwi3K3.png" catchup="default" catchup-days="2" catchup-source="http://sv.cvtv.xyz:3000/mytvod.m3u8?id=377&time=${start}&offset=${duration},VTV2
+http://khaitv.giize.com:1979/mytv/new/get.php?id=377
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+#EXTINF:0 tvg-id="vtv3hd" group-title=" VTV" tvg-logo="https://i.imgur.com/7rLCvgS.png" catchup="default" catchup-days="2" catchup-source="http://sv.cvtv.xyz:3000/mytvod.m3u8?id=211&time=${start}&offset=${duration},VTV3
+http://khaitv.giize.com:1979/mytv/new/get.php?id=211
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+#EXTINF:0 tvg-id="vtv4hd" group-title=" VTV" tvg-logo="https://i.imgur.com/9zVTtsA.png" catchup="default" catchup-days="2" catchup-source="http://sv.cvtv.xyz:3000/mytvod.m3u8?id=378&time=${start}&offset=${duration},VTV4
+http://khaitv.giize.com:1979/mytv/new/get.php?id=378
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+#EXTINF:0 tvg-id="vtv5hd" group-title=" VTV" tvg-logo="https://i.imgur.com/7qPKNFU.png"catchup="default" catchup-days="2" catchup-source="http://sv.cvtv.xyz:3000/mytvod.m3u8?id=379&time=${start}&offset=${duration} ,VTV5
+http://khaitv.giize.com:1979/mytv/new/get.php?id=379
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+#EXTINF:0 tvg-id="vtvcantho" group-title=" VTV" tvg-logo="https://i.imgur.com/HCpqatZ.png" catchup="default" catchup-days="2" catchup-source="http://sv.cvtv.xyz:3000/mytvod.m3u8?id=212&time=${start}&offset=${duration},VTV Cần Thơ
+http://khaitv.giize.com:1979/mytv/new/get.php?id=212
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+#EXTINF:0 tvg-id="vtv7hd" group-title=" VTV" tvg-logo="https://i.imgur.com/AgamSNe.png",VTV7
+http://khaitv.giize.com:1979/mytv/new/get.php?id=459
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+#EXTINF:0 tvg-id="vtv8hd" group-title=" VTV" tvg-logo="https://i.imgur.com/lpcltL9.png",VTV8
+http://khaitv.giize.com:1979/mytv/new/get.php?id=380
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+#EXTINF:0 tvg-id="vtv9hd" group-title=" VTV" tvg-logo="https://i.imgur.com/Ex1VkGQ.png",VTV9
+http://khaitv.giize.com:1979/mytv/new/get.php?id=381
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+#EXTINF:0 tvg-id="vtv5hdtnb" group-title=" VTV" tvg-logo="https://i.imgur.com/mIUWkDx.png" catchup="default" catchup-days="2" catchup-source="http://sv.cvtv.xyz:3000/mytvod.m3u8?id=615&time=${start}&offset=${duration},VTV5 Tây Nam Bộ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+http://khaitv.giize.com:1979/mytv/new/get.php?id=615
+#EXTINF:0 tvg-id="vtv5hdtn" group-title=" VTV" tvg-logo="https://i.imgur.com/R8c2swd.png" catchup="default" catchup-days="2" catchup-source="http://sv.cvtv.xyz:3000/mytvod.m3u8?id=642&time=${start}&offset=${duration},VTV5 Tây Nguyên
+http://khaitv.giize.com:1979/mytv/new/get.php?id=642
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
+
+#-------------------HTV/HTVC-------------------#
+#EXTINF:0 tvg-id="htv1" group-title=" HTV/HTVC" tvg-logo="https://i.imgur.com/oLm4dbV.png",HTV1 (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=7
+#EXTINF:0 tvg-id="htv2hd" group-title=" HTV/HTVC" tvg-logo="https://i.imgur.com/f3KlwDX.png",HTV2 Vie Channel (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=127
+#EXTINF:0 tvg-id="htv3" group-title=" HTV/HTVC" tvg-logo="https://i.imgur.com/2iE01Ca.png",HTV3 (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=110
+#EXTINF:0 tvg-id="htvkey" group-title=" HTV/HTVC" tvg-logo="https://i.imgur.com/wrH7U0X.png",HTV Keys (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=9
+#EXTINF:0 tvg-id="htv7hd" group-title=" HTV/HTVC" tvg-logo="https://i.imgur.com/RSlvzAs.png",HTV7 (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=128
+#EXTINF:0 tvg-id="htv9hd" group-title=" HTV/HTVC" tvg-logo="https://i.imgur.com/wdS7Cr9.png",HTV9 (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=190
+#EXTINF:0 tvg-id="htvccanhachd" group-title=" HTV/HTVC" tvg-logo="https://i.imgur.com/ZHVkEIC.png",HTVC Ca Nhạc (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=12
+#EXTINF:0 tvg-id="htvcdulichhd" group-title=" HTV/HTVC" tvg-logo="https://i.imgur.com/XxIO0E0.png",HTVC Du Lịch và Cuộc Sống (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=13
+#EXTINF:0 tvg-id="htvcgiadinhhd" group-title=" HTV/HTVC" tvg-logo="https://i.imgur.com/KxWRNH6.png",HTVC Gia Đình (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=14
+#EXTINF:0 tvg-id="htvcphimhd" group-title=" HTV/HTVC" tvg-logo="https://i.imgur.com/SXV3ya9.png",HTVC Phim (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=302
+#EXTINF:0 tvg-id="htvcphunuhd" group-title=" HTV/HTVC" tvg-logo="https://i.imgur.com/PLliKL6.png",HTVC Phụ Nữ (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=15
+#EXTINF:0 tvg-id="htvcthuanviet" group-title=" HTV/HTVC" tvg-logo="https://i.imgur.com/xmISDWo.png",HTVC Thuần Việt (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=300
+#EXTINF:0 tvg-id="htvcplushd" group-title=" HTV/HTVC" tvg-logo="https://i.imgur.com/SQ9cLJj.png",HTVC+ (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=384
+
+#-------------------Địa phương-------------------#
+
+#EXTINF:0 tvg-id="vinhlong1hd" group-title="Địa phương" tvg-logo="https://i.imgur.com/gvPtTR2.png",THVL1 HD | Vĩnh Long 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=421
+#EXTINF:0 tvg-id="vinhlong2hd" group-title="Địa phương" tvg-logo="https://i.imgur.com/wYadDFn.png",THVL2 HD | Vĩnh Long 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=423
+#EXTINF:0 tvg-id="vinhlong3hd" group-title="Địa phương" tvg-logo="https://i.imgur.com/B8S0dyG.png",THVL3 HD | Vĩnh Long 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=425
+#EXTINF:0 tvg-id="vinhlong4hd" group-title="Địa phương" tvg-logo="https://i.imgur.com/xYalJzh.png",THVL4 HD | Vĩnh Long 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=429
+#EXTINF:0 tvg-id="vinhlong5hd" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/THVL5_VinhLong.png",THVL5 HD | Vĩnh Long
+http://khaitv.giize.com:1979/mytv/new/get.php?id=175
+#EXTINF:0 tvg-id="dongthap1" group-title="Địa phương" tvg-logo="https://i.imgur.com/UfOw13y.png",THĐT1 | Đồng Tháp 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=96
+#EXTINF:0 tvg-id="dongthap2" group-title="Địa phương" tvg-logo="https://i.imgur.com/WXebESa.png",THĐT2 - Miền Tây | Đồng Tháp 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=54
+#EXTINF:0 tvg-id="angiang1" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/ATV1_AnGiang.png",ATV1 | An Giang 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=433
+#EXTINF:0 tvg-id="angiang2" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/ATV2_AnGiang.png",ATV2 | An Giang 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=34
+#EXTINF:0 tvg-id="angiang3" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/ATV3_AnGiang.png",ATV3 | An Giang 
+https://tv.angiangtv.vn/live/kgtv1/kgtv1.m3u8
+#EXTINF:0 tvg-id="camau" group-title="Địa phương" tvg-logo="https://i.imgur.com/cYqXh3i.png",CTV HD | Cà Mau 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=123
+#EXTINF:0 tvg-id="dongnai1" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/DNNRTV1_DongNai.png",ĐNNRTV1 HD | Đồng Nai 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=404
+#EXTINF:0 tvg-id="cantho1" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/CanTho1.png",THTPCT1 | Thành phố Cần Thơ 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=39
+#EXTINF:0 tvg-id="cantho2" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/CanTho2.png",THTPCT2 | Thành phố Cần Thơ 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=181
+#EXTINF:0 tvg-id="cantho3" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/CanTho3.png",THTPCT3 | Thành phố Cần Thơ 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=52
+#EXTINF:0 tvg-id="tayninh1" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/TTV1_TayNinh.png",TTV1 | Tây Ninh
+http://khaitv.giize.com:1979/mytv/new/get.php?id=47
+#EXTINF:0 tvg-id="tayninh2" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/TTV2_TayNinh.png",TTV2 | Tây Ninh 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=53
+#EXTINF:0 tvg-id="binhduong1" group-title="Địa phương" tvg-logo="https://i.imgur.com/YPQCtHY.png",BTV1 HD | Bình Dương 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=402
+#EXTINF:0 tvg-id="binhduong2" group-title="Địa phương" tvg-logo="https://i.imgur.com/LpV0d3Q.png",BTV2 HD | Bình Dương 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=402
+#EXTINF:0 tvg-id="anvienhd" group-title="Địa phương" tvg-logo="https://i.imgur.com/jeunb3Y.png",BTV9 B Channel 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=479
+#EXTINF:0 tvg-id="vungtau" group-title="Địa phương" tvg-logo="https://i.imgur.com/KX2RMXR.png",BRT HD | Bà Rịa Vũng Tàu 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=97
+#EXTINF:0 tvg-id="khanhhoa" group-title="Địa phương" tvg-logo="https://i.imgur.com/kPu3rSN.png",KTV HD | Khánh Hòa 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=114
+#EXTINF:0 tvg-id="khanhhoa1" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/KTV1_KhanhHoa.png",KTV1 HD | Khánh Hòa 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=176
+#EXTINF:0 tvg-id="lamdong1" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/LTV1_LamDong.png",LTV1 | Lâm Đồng 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=164
+#EXTINF:0 tvg-id="lamdong2" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/LTV2_LamDong.png",LTV2 | Lâm Đồng 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=125
+#EXTINF:0 tvg-id="lamdong3" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/LTV3_LamDong.png",LTV3 | Lâm Đồng 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=163
+#EXTINF:0 tvg-id="hue" group-title="Địa phương" tvg-logo="https://i.imgur.com/q5MBibm.png",HUETV | Huế 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=168
+#EXTINF:0 tvg-id="danang1" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/DNRT1_DaNang.png",ĐNRT1 | Đà Nẵng 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=90
+#EXTINF:0 tvg-id="danang2" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/DNRT2_DaNang.png",ĐNRT2 | Đà Nẵng 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=60
+#EXTINF:0 tvg-id="quangtri" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/QTTV_QuangTri.png",QTTV | Quảng Trị 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=120
+#EXTINF:0 tvg-id="quangngai" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/QNgTV_QuangNgai.png",QNgTV | Quảng Ngãi 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=173
+#EXTINF:0 tvg-id="gialai" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/GTV_GiaLai.png",GTV | Gia Lai 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=170
+#EXTINF:0 tvg-id="daklak" group-title="Địa phương" tvg-logo="https://i.imgur.com/H2LOZ2A.png",DRT HD | Đắk Lắk 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=162
+#EXTINF:0 tvg-id="dienbien" group-title="Địa phương" tvg-logo="https://i.imgur.com/Rky1N5S.png",ĐTV | Điện Biên 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=158
+#EXTINF:0 tvg-id="laichau" group-title="Địa phương" tvg-logo="https://i.imgur.com/we3GCjr.png",LTV | Lai Châu 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=156
+#EXTINF:0 tvg-id="laocai" group-title="Địa phương" tvg-logo="https://i.imgur.com/QAVSUBu.png",THLC | Lào Cai 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=116
+#EXTINF:0 tvg-id="sonla" group-title="Địa phương" tvg-logo="https://i.imgur.com/QZT6GIh.png",STV HD | Sơn La 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=157
+#EXTINF:0 tvg-id="tuyenquang" group-title="Địa phương" tvg-logo="https://i.imgur.com/6RPgRE7.png",TTV | Tuyên Quang 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=154
+#EXTINF:0 tvg-id="caobang" group-title="Địa phương" tvg-logo="https://i.imgur.com/YCrYT2p.png",CRTV | Cao Bằng 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=141
+#EXTINF:0 tvg-id="langson" group-title="Địa phương" tvg-logo="https://i.imgur.com/6FCXyrr.png",LSTV HD | Lạng Sơn 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=193
+#EXTINF:0 tvg-id="thainguyen" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/TN_ThaiNguyen.png",TN | Thái Nguyên 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=182
+#EXTINF:0 tvg-id="phutho" group-title="Địa phương" tvg-logo="https://i.imgur.com/5OZ2hAB.png",PTV HD | Phú Thọ 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=57
+#EXTINF:0 tvg-id="bacninh" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/BTV_BacNinh.png",BTV | Bắc Ninh 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=183
+#EXTINF:0 tvg-id="quangninh1" group-title="Địa phương" tvg-logo="https://i.imgur.com/sGcRJVP.png",QTV1 HD | Quảng Ninh 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=455
+#EXTINF:0 tvg-id="quangninh3" group-title="Địa phương" tvg-logo="https://i.imgur.com/4hadYbw.png",QTV3 HD | Quảng Ninh 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=457
+#EXTINF:0 tvg-id="haiphong" group-title="Địa phương" tvg-logo="https://i.imgur.com/StFk4PA.png",THP | Hải Phòng 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=407
+#EXTINF:0 tvg-id="haiphongplus" group-title="Địa phương" tvg-logo="https://i.imgur.com/s3yq8AW.png",THP+ | Hải Phòng
+http://khaitv.giize.com:1979/mytv/new/get.php?id=407
+#EXTINF:0 tvg-id="haiduong" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/THP3_HaiPhong.png",THP3 | Hải Phòng 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=93
+#EXTINF:0 tvg-id="hanoi1" group-title="Địa phương" tvg-logo="https://i.imgur.com/mwCTDMj.png",H1 HD | Hà Nội 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=400
+#EXTINF:0 tvg-id="hanoi2" group-title="Địa phương" tvg-logo="https://i.imgur.com/HyiwlZV.png",H2 HD | Hà Nội 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=401
+#EXTINF:0 tvg-id="hanoi2" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/H2_HanoiTV_UHD.png",H2 UHD | Hà Nội 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=401
+#EXTINF:0 tvg-id="ninhbinh" group-title="Địa phương" tvg-logo="https://i.imgur.com/XuYnZWe.png",NBTV HD | Ninh Bình 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=40
+#EXTINF:0 tvg-id="nghean" group-title="Địa phương" tvg-logo="https://i.imgur.com/5HEfwZz.png",NTV HD | Nghệ An 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=453
+#EXTINF:0 tvg-id="hatinh" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/BHTTV_BaoHaTinhTV.png",BHTTV | Hà Tĩnh 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=405
+#EXTINF:0 tvg-id="hungyen" group-title="Địa phương" tvg-logo="https://i.imgur.com/deNnP9h.png",HY | Hưng Yên
+http://khaitv.giize.com:1979/mytv/new/get.php?id=122
+#EXTINF:0 tvg-id="thanhhoa" group-title="Địa phương" tvg-logo="https://i.imgur.com/NlOwltd.png",TTV | Thanh Hóa
+http://khaitv.giize.com:1979/mytv/new/get.php?id=477
+#EXTINF:0 tvg-id="quangngai" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/QNgTV_QuangNgai.png",QNgTV | Quảng Ngãi 
+http://khaitv.giize.com:1979/mytv/new/get.php?id=173
+
+#-------------------Quốc tế-------------------#
+#EXTINF:0 tvg-id="abcaustralia" group-title="Quốc Tế" tvg-logo="https://i.imgur.com/UI80qhw.png",ABC Australia (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=321
+#EXTINF:0 tvg-id="animalhd" group-title="Quốc Tế" tvg-logo="https://i.imgur.com/TBgGuJy.png",Animal Planet (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=394
+#EXTINF:0 tvg-id="afnhd" group-title="Quốc Tế" tvg-logo="https://i.imgur.com/KL9oaqc.png",Asian Food Network (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=298
+#EXTINF:0 tvg-id="axnhd" group-title="Quốc Tế" tvg-logo="https://i.imgur.com/Rwm7Lod.png",AXN (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=387
+#EXTINF:0 tvg-id="cartoonhd" group-title="Quốc Tế" tvg-logo="https://i.imgur.com/6oXQdBZ.png",Cartoon Network (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=391
+#EXTINF:-1 group-title="Quốc Tế" tvg-logo="https://i.imgur.com/NzROY7r.png",Cinemax (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=386
+#EXTINF:0 tvg-id="" group-title="Quốc Tế" tvg-logo="https://i.imgur.com/RIQE8kA.png",CNA (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=366
+#EXTINF:0 tvg-id="cnn" group-title="Quốc Tế" tvg-logo="https://i.imgur.com/RCd9AM9.png",CNN (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=392
+#EXTINF:0 tvg-id="davinci" group-title="Quốc Tế" tvg-logo="https://i.imgur.com/t9fzARL.png",Da Vinci (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=294
+#EXTINF:0 tvg-id="discoveryasiahd" group-title="Quốc Tế" tvg-logo="https://i.imgur.com/STCTI1F.png",Discovery Asia (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=363
+#EXTINF:0 tvg-id="discoveryhd" group-title="Quốc Tế" tvg-logo="https://i.imgur.com/2JR5vSZ.png",Discovery Channel (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=363
+#EXTINF:0 tvg-id="dreamworks" group-title="Quốc Tế" tvg-logo="https://i.imgur.com/N69Cori.png",Dreamworks (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=553
+#EXTINF:0 tvg-id="dw" group-title="Quốc Tế" tvg-logo="https://i.imgur.com/Ppi36a4.png",DW (English) (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=313
+#EXTINF:0 tvg-id="fashionhd" group-title="Quốc Tế" tvg-logo="https://i.imgur.com/ALDt1JX.png",Fashion TV (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=362
+#EXTINF:0 tvg-id="france24eng" group-title="Quốc Tế" tvg-logo="https://i.imgur.com/YF2zMTz.png",France 24 (English) (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=308
+#EXTINF:0 tvg-id="hbohd" group-title="Quốc Tế" tvg-logo="https://i.imgur.com/7nIUtCU.png",HBO (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=385
+#EXTINF:0 tvg-id="hbohd" group-title="Quốc Tế" tvg-logo="https://i.imgur.com/7nIUtCU.png",HBO (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=385
+#EXTINF:0 tvg-id="kbsworld" group-title="Quốc Tế" tvg-logo="https://i.imgur.com/vylHBC8.png",KBS World (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=306
+#EXTINF:0 tvg-id="nhkworld" group-title="Quốc Tế" tvg-logo="https://i.imgur.com/Et3vExm.png",NHK World Japan (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=185
+#EXTINF:0 tvg-id="outdoorhd" group-title="Quốc Tế" tvg-logo="https://i.imgur.com/x4zXtYX.png",Outdoor Channel (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=191
+#EXTINF:0 tvg-id="tlchd" group-title="Quốc Tế" tvg-logo="https://i.imgur.com/ZStxdQI.png",TLC (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=395
+#EXTINF:0 tvg-id="warnertvhd" group-title="Quốc Tế" tvg-logo="https://i.imgur.com/B9AVT2i.png",WBTV (HD 8Mbps)
+http://khaitv.giize.com:1979/mytv/new/get.php?id=361
+
+#--- Channels from 222 not matched to 111 (added below) ---
+
+
+#EXTINF:0 tvg-id="sctv1hd" group-title="SCTV" tvg-logo="https://i.imgur.com/imhFxSG.png",SCTV1
+http://khaitv.giize.com:1979/mytv/new/get.php?id=769
+#EXTINF:0 tvg-id="sctv2hd" group-title="SCTV" tvg-logo="https://i.imgur.com/UpBZOaH.png",SCTV2
+http://khaitv.giize.com:1979/mytv/new/get.php?id=772
+#EXTINF:0 tvg-id="sctv3hd" group-title="SCTV" tvg-logo="https://i.imgur.com/wZrGAtH.png",SCTV3
+http://khaitv.giize.com:1979/mytv/new/get.php?id=775
+#EXTINF:0 tvg-id="sctv4hd" group-title="SCTV" tvg-logo="https://i.imgur.com/ntSnAMJ.png",SCTV4
+http://khaitv.giize.com:1979/mytv/new/get.php?id=778
+#EXTINF:0 tvg-id="sctv6hd" group-title="SCTV" tvg-logo="https://i.imgur.com/pSIvTkZ.png",SCTV6
+http://khaitv.giize.com:1979/mytv/new/get.php?id=781
+#EXTINF:0 tvg-id="sctv7hd" group-title="SCTV" tvg-logo="https://i.imgur.com/EdjXUUb.png",SCTV7
+http://khaitv.giize.com:1979/mytv/new/get.php?id=784
+#EXTINF:0 tvg-id="sctv8hd" group-title="SCTV" tvg-logo="https://i.imgur.com/NULoCoA.png",SCTV8
+http://khaitv.giize.com:1979/mytv/new/get.php?id=787
+#EXTINF:0 tvg-id="sctv9hd" group-title="SCTV" tvg-logo="https://i.imgur.com/6dvyvea.png",SCTV9
+http://khaitv.giize.com:1979/mytv/new/get.php?id=790
+#EXTINF:0 tvg-id="sctv11hd" group-title="SCTV" tvg-logo="https://i.imgur.com/AP2o4bW.png",SCTV11
+http://khaitv.giize.com:1979/mytv/new/get.php?id=793
+#EXTINF:0 tvg-id="sctv12hd" group-title="SCTV" tvg-logo="https://i.imgur.com/5nrSZd8.png",SCTV12
+http://khaitv.giize.com:1979/mytv/new/get.php?id=796
+#EXTINF:0 tvg-id="sctv13hd" group-title="SCTV" tvg-logo="https://i.imgur.com/5nrSZd8.png",SCTV13
+http://khaitv.giize.com:1979/mytv/new/get.php?id=799
+#EXTINF:0 tvg-id="sctv14hd" group-title="SCTV" tvg-logo="https://i.imgur.com/1yNMyEh.png",SCTV14
+http://khaitv.giize.com:1979/mytv/new/get.php?id=802
+#EXTINF:0 tvg-id="sctv15hd" group-title="SCTV" tvg-logo="https://i.imgur.com/EPwjrlB.png",SCTV15
+http://khaitv.giize.com:1979/mytv/new/get.php?id=823
+#EXTINF:0 tvg-id="sctv16hd" group-title="SCTV" tvg-logo="https://i.imgur.com/b4ZROQG.png",SCTV16
+http://khaitv.giize.com:1979/mytv/new/get.php?id=804
+#EXTINF:0 tvg-id="sctv17hd" group-title="SCTV" tvg-logo="https://i.imgur.com/Ghjy4HY.png",SCTV17
+http://khaitv.giize.com:1979/mytv/new/get.php?id=826
+#EXTINF:0 tvg-id="sctv18hd" group-title="SCTV" tvg-logo="https://i.imgur.com/k2Eg4T4.png",SCTV18
+http://khaitv.giize.com:1979/mytv/new/get.php?id=808
+#EXTINF:0 tvg-id="sctv19hd" group-title="SCTV" tvg-logo="https://i.imgur.com/s4vfvNb.png",SCTV19
+http://khaitv.giize.com:1979/mytv/new/get.php?id=811
+#EXTINF:0 tvg-id="sctv20hd" group-title="SCTV" tvg-logo="https://i.imgur.com/zwfqboB.png",SCTV20
+http://khaitv.giize.com:1979/mytv/new/get.php?id=814
+#EXTINF:0 tvg-id="sctv21hd" group-title="SCTV" tvg-logo="https://i.imgur.com/aHKybQW.png",SCTV21
+http://khaitv.giize.com:1979/mytv/new/get.php?id=817
+#EXTINF:0 tvg-id="sctv22hd" group-title="SCTV" tvg-logo="https://i.imgur.com/O0HdUpB.png",SCTV22
+http://khaitv.giize.com:1979/mytv/new/get.php?id=829
+#EXTINF:0 tvg-id="sctvhdpth" group-title="SCTV" tvg-logo="https://i.imgur.com/VzZYa4n.png",SCTV Phim Tổng Hợp
+http://khaitv.giize.com:1979/mytv/new/get.php?id=766
+
+#EXTINF:0 tvg-id="onsports" group-title="VTVcab" tvg-logo="https://i.imgur.com/moYwxwf.png",ON Sports HD
+http://khaitv.giize.com:1979/mytv/new/get.php?id=200
+#EXTINF:0 tvg-id="onsportsplus" group-title="VTVcab" tvg-logo="https://i.imgur.com/cFs8OVb.png",ON Sports+
+http://khaitv.giize.com:1979/mytv/new/get.php?id=200
+#EXTINF:0 tvg-id="onsportsplus" group-title="VTVcab" tvg-logo="https://i.imgur.com/cFs8OVb.png",ON Sports+
+http://khaitv.giize.com:1979/mytv/new/get.php?id=203
+#EXTINF:0 tvg-id="onfootball" group-title="VTVcab" tvg-logo="https://i.imgur.com/WAxiIfP.png",ON Football HD
+http://khaitv.giize.com:1979/mytv/new/get.php?id=207
+#EXTINF:0 tvg-id="onsportsnews" group-title="VTVcab" tvg-logo="https://i.imgur.com/wpRXpJg.png",ON Sports News
+http://khaitv.giize.com:1979/mytv/new/get.php?id=441
+#EXTINF:0 tvg-id="ongolf" group-title="VTVcab" tvg-logo="https://i.imgur.com/BGF2I58.png",ON Golf
+http://khaitv.giize.com:1979/mytv/new/get.php?id=415
+#EXTINF:0 tvg-id="onbibi" group-title="VTVcab" tvg-logo="https://i.imgur.com/YFmPo7l.png",ON BiBi
+http://khaitv.giize.com:1979/mytv/new/get.php?id=205
+#EXTINF:0 tvg-id="oncine" group-title="VTVcab" tvg-logo="https://i.imgur.com/6f9ngwY.png",ON Cine
+http://khaitv.giize.com:1979/mytv/new/get.php?id=204
+#EXTINF:0 tvg-id="onechannel" group-title="VTVcab" tvg-logo="https://i.imgur.com/87JEXEQ.png",ON EChannel
+http://khaitv.giize.com:1979/mytv/new/get.php?id=202
+#EXTINF:0 tvg-id="oninfotv" group-title="VTVcab" tvg-logo="https://i.imgur.com/jp57P0v.png",ON Info TV
+http://khaitv.giize.com:1979/mytv/new/get.php?id=437
+#EXTINF:0 tvg-id="onkids" group-title="VTVcab" tvg-logo="https://i.imgur.com/Y2SzhHG.png",ON Kids
+http://khaitv.giize.com:1979/mytv/new/get.php?id=742
+#EXTINF:0 tvg-id="onlife" group-title="VTVcab" tvg-logo="https://i.imgur.com/2xT5HFx.png",ON Life
+http://khaitv.giize.com:1979/mytv/new/get.php?id=745
+#EXTINF:0 tvg-id="onmovies" group-title="VTVcab" tvg-logo="https://i.imgur.com/765Y3jw.png",ON Movies
+http://khaitv.giize.com:1979/mytv/new/get.php?id=435
+#EXTINF:0 tvg-id="onmusic" group-title="VTVcab" tvg-logo="https://i.imgur.com/45BXPY3.png",ON Music
+http://khaitv.giize.com:1979/mytv/new/get.php?id=439
+#EXTINF:0 tvg-id="ono2tv" group-title="VTVcab" tvg-logo="https://i.imgur.com/nqwVkmM.png",ON O2TV
+http://khaitv.giize.com:1979/mytv/new/get.php?id=27
+#EXTINF:0 tvg-id="onphimviet" group-title="VTVcab" tvg-logo="https://i.imgur.com/MPNlpzb.png",ON Phim Việt
+http://khaitv.giize.com:1979/mytv/new/get.php?id=198
+#EXTINF:0 tvg-id="onstyle" group-title="VTVcab" tvg-logo="https://i.imgur.com/6LQ0Z1O.png",ON Style TV
+http://khaitv.giize.com:1979/mytv/new/get.php?id=206
+#EXTINF:0 tvg-id="ontrending" group-title="VTVcab" tvg-logo="https://i.imgur.com/hHYzxmS.png",ON Trending TV
+http://khaitv.giize.com:1979/mytv/new/get.php?id=209
+#EXTINF:0 tvg-id="onvfamily" group-title="VTVcab" tvg-logo="https://i.imgur.com/R82M53x.png",ON VFamily
+http://khaitv.giize.com:1979/mytv/new/get.php?id=241
+#EXTINF:0 tvg-id="onviedramas" group-title="VTVcab" tvg-logo="https://i.imgur.com/n7QICK7.png",ON Vie Dramas
+http://khaitv.giize.com:1979/mytv/new/get.php?id=201
+#EXTINF:0 tvg-id="onviegiaitri" group-title="VTVcab" tvg-logo="https://i.imgur.com/7GSKm46.png",ON Vie Giải Trí
+http://khaitv.giize.com:1979/mytv/new/get.php?id=197
+
+
+
+
+
+
+#EXTINF:0 tvg-id="kcinehd" group-title="K+" tvg-logo="https://i.imgur.com/As4bwUs.png",K+ Cine
+http://khaitv.giize.com:1979/mytv/new/get.php?id=228
+#EXTINF:0 tvg-id="kaction" group-title="K+" tvg-logo="https://i.imgur.com/QPkuBRi.png",K+ Action
+http://khaitv.giize.com:1979/mytv/new/get.php?id=230
+#EXTINF:0 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/6yiAtRg.png",K+ Sport 1
+http://khaitv.giize.com:1979/mytv/new/get.php?id=229
+#EXTINF:0 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/EFeyqYX.png",K+ Sport 2
+http://khaitv.giize.com:1979/mytv/new/get.php?id=247
+#EXTINF:0 tvg-id="kkidshd" group-title="K+" tvg-logo="https://i.imgur.com/erWqYxh.png",K+ Kids
+http://khaitv.giize.com:1979/mytv/new/get.php?id=748
+#EXTINF:0 tvg-id="spotv1" group-title="Quốc Tế (HD)" tvg-logo="https://i.imgur.com/hXYkO7B.png",SPOTV HD
+http://khaitv.giize.com:1979/mytv/new/get.php?id=632
+#EXTINF:0 tvg-id="spotv2" group-title="Quốc Tế (HD)" tvg-logo="https://i.imgur.com/EBKmDBi.png",SPOTV2 HD
+http://khaitv.giize.com:1979/mytv/new/get.php?id=633
+
+#EXTINF:0 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/6yiAtRg.png",K+ Sport 1
+http://khaitv.giize.com:1979/mytv/new/get.php?id=196
+#EXTINF:0 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/EFeyqYX.png",K+ Sport 2
+http://khaitv.giize.com:1979/mytv/new/get.php?id=249
+#EXTINF:0 tvg-id="kkidshd" group-title="K+" tvg-logo="https://i.imgur.com/erWqYxh.png",K+ Kids
+http://khaitv.giize.com:1979/mytv/new/get.php?id=751
+
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/DakLakTV.png" $ExtFilter="Mới",DAK LAK
+http://khaitv.giize.com:1979/mytv/new/get.php?id=245
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/antv.png" tvg-id="580b41ec361f9ab19e5b529d5be6dbf3_antvhd" $ExtFilter="Mới",ANTV
+http://khaitv.giize.com:1979/mytv/new/get.php?id=35
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/btv2.png" $ExtFilter="Mới",BTV2
+http://khaitv.giize.com:1979/mytv/new/get.php?id=38
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/AFN.png" tvg-id="580b41ec361f9ab19e5b529d5be6dbf3_afnhd" $ExtFilter="Mới",AFN
+http://khaitv.giize.com:1979/mytv/new/get.php?id=298
+#EXTINF:-1 group-title=" Tong hop" $ExtFilter="Mới",KOREA
+http://khaitv.giize.com:1979/mytv/new/get.php?id=63
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/Music Box.png" tvg-id="580b41ec361f9ab19e5b529d5be6dbf3_musicbox" $ExtFilter="Mới",MUSIC BOX
+http://khaitv.giize.com:1979/mytv/new/get.php?id=69
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/BTV5.png" tvg-id="580b41ec361f9ab19e5b529d5be6dbf3_tv5monde" $ExtFilter="Mới",TV5
+http://khaitv.giize.com:1979/mytv/new/get.php?id=83
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/Da Vinci Learning.png" $ExtFilter="Mới",DA NANG 2
+http://khaitv.giize.com:1979/mytv/new/get.php?id=95
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/box hits.png" tvg-id="580b41ec361f9ab19e5b529d5be6dbf3_boxhits" $ExtFilter="Mới",BOX HITS
+http://khaitv.giize.com:1979/mytv/new/get.php?id=105
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/btv1.png" $ExtFilter="Mới",BTV6
+http://khaitv.giize.com:1979/mytv/new/get.php?id=115
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/Da Vinci Learning.png" $ExtFilter="Mới",DA NANG 1
+http://khaitv.giize.com:1979/mytv/new/get.php?id=119
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/QuangNinhTV1.png" tvg-id="580b41ec361f9ab19e5b529d5be6dbf3_tuyenquang" $ExtFilter="Mới",QUANG TRI HD
+http://khaitv.giize.com:1979/mytv/new/get.php?id=121
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/BacNinhTV.png" tvg-id="580b41ec361f9ab19e5b529d5be6dbf3_ninhbinh" $ExtFilter="Mới",NINH BINH
+http://khaitv.giize.com:1979/mytv/new/get.php?id=149
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/LaoCaiTV.png" $ExtFilter="Mới",LAO CAI
+http://khaitv.giize.com:1979/mytv/new/get.php?id=153
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/TuyenQuangTV.png" $ExtFilter="Mới",TUYEN QUANG
+http://khaitv.giize.com:1979/mytv/new/get.php?id=155
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/PhuThoTV.png" $ExtFilter="Mới",PHU THO
+http://khaitv.giize.com:1979/mytv/new/get.php?id=159
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/BacNinhTV.png" tvg-id="580b41ec361f9ab19e5b529d5be6dbf3_ninhbinh" $ExtFilter="Mới",NINH BINH
+http://khaitv.giize.com:1979/mytv/new/get.php?id=160
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/GiaLaiTV.png" tvg-id="580b41ec361f9ab19e5b529d5be6dbf3_gialai" $ExtFilter="Mới",GIA LAI
+http://khaitv.giize.com:1979/mytv/new/get.php?id=172
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/Da Vinci Learning.png" $ExtFilter="Mới",DA NANG 2
+http://khaitv.giize.com:1979/mytv/new/get.php?id=179
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/HTVC Ca nhac.png" $ExtFilter="Mới",CA MAU
+http://khaitv.giize.com:1979/mytv/new/get.php?id=180
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/QPVN.png" tvg-id="580b41ec361f9ab19e5b529d5be6dbf3_qpvnhd" $ExtFilter="Mới",QPVN
+http://khaitv.giize.com:1979/mytv/new/get.php?id=227
+#EXTINF:-1 group-title=" Tong hop" $ExtFilter="Mới",PAID PROGRAM
+http://khaitv.giize.com:1979/mytv/new/get.php?id=358
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/BacKanTV.png" $ExtFilter="Mới",BAC NINH
+http://khaitv.giize.com:1979/mytv/new/get.php?id=360
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/ThaiBinhTV.png" $ExtFilter="Mới",THAI NGUYEN
+http://khaitv.giize.com:1979/mytv/new/get.php?id=406
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/HungYenTV.png" $ExtFilter="Mới",HUNG YEN
+http://khaitv.giize.com:1979/mytv/new/get.php?id=408
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/QuangNamTV.png" tvg-id="580b41ec361f9ab19e5b529d5be6dbf3_tuyenquang" $ExtFilter="Mới",QUANG NGAI
+http://khaitv.giize.com:1979/mytv/new/get.php?id=409
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/PhuThoTV.png" $ExtFilter="Mới",PHU THO
+http://khaitv.giize.com:1979/mytv/new/get.php?id=410
+#EXTINF:-1 group-title=" Tong hop" tvg-logo="../Channel/Logo/HaiDuongTV.png" $ExtFilter="Mới",HAI PHONG +
+http://khaitv.giize.com:1979/mytv/new/get.php?id=616
+#EXTINF:-1 group-title=" Tong hop" $ExtFilter="Mới",MYTV
+http://khaitv.giize.com:1979/mytv/new/get.php?id=447
+#EXTINF:-1 group-title=" Tong hop" $ExtFilter="Mới",MYTV
+http://khaitv.giize.com:1979/mytv/new/get.php?id=449
+#EXTINF:-1 group-title=" Tong hop" $ExtFilter="Mới",MYTV LIVE
+http://khaitv.giize.com:1979/mytv/new/get.php?id=670
+#EXTINF:-1 group-title=" Tong hop" $ExtFilter="Mới",MYTV LIVE
+http://khaitv.giize.com:1979/mytv/new/get.php?id=736
+#EXTINF:-1 group-title=" Tong hop" $ExtFilter="Mới",MYTV
+http://khaitv.giize.com:1979/mytv/new/get.php?id=754
+#EXTINF:-1 group-title=" Tong hop" $ExtFilter="Mới",MYTV LIVE
+http://khaitv.giize.com:1979/mytv/new/get.php?id=267
+
+#EXTINF:0 group-title="SCTV" tvg-logo="https://i.ytimg.com/vi/fyT_xa-g-Pk/hq720.jpg",VTVcab 1 Vie Giải Trí
+http://khaitv.giize.com:8080/tvmienphi/getv.php?id=180
+#EXTINF:0 group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ONPHIMVIET.jpg/1600px-ONPHIMVIET.jpg",VTVcab 2 On Phim Việt
+http://khaitv.giize.com:8080/tvmienphi/getv.php?id=175
+#EXTINF:0 group-title="SCTV" tvg-logo="https://i.ytimg.com/vi/NZablQM-L9g/maxresdefault.jpg",VTVcab 4 On Movies
+http://khaitv.giize.com:8080/tvmienphi/getv.php?id=181
+#EXTINF:0 group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/13/ONECHANNEL.jpg",VTVcab 5 On E Channel
+http://khaitv.giize.com:8080/tvmienphi/getv.php?id=182
+#EXTINF:0 group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/16/ONO2TV.jpg",VTVcab 7 ON O2TV
+http://khaitv.giize.com:8080/tvmienphi/getv.php?id=136
+#EXTINF:0 group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/97/ONBIBI.jpg",VTVcab 8 On Bi Bi
+http://khaitv.giize.com:8080/tvmienphi/getv.php?id=178
+#EXTINF:0 group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/ONINFO.jpg",VTVcab 9 On InfoTV
+http://khaitv.giize.com:8080/tvmienphi/getv.php?id=189
+#EXTINF:0 group-title="SCTV" tvg-logo="https://i.ytimg.com/vi/rwhsuTvSXxo/maxresdefault.jpg",VTVcab 10 On Cine
+http://khaitv.giize.com:8080/tvmienphi/getv.php?id=176
+#EXTINF:0 group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/ONSTYLE.jpg",VTVcab 12 StyleTV
+http://khaitv.giize.com:8080/tvmienphi/getv.php?id=184
+#EXTINF:0 group-title="SCTV" tvg-logo="https://img-zlr1.tv360.vn/image1/2023/07/20/10/1689822524259/0f3a4d1ebfaf_640_360.png",VTVcab 15 On Music
+http://khaitv.giize.com:8080/tvmienphi/getv.php?id=185
+#EXTINF:0 group-title="SCTV" tvg-logo="https://i.ibb.co/k1ccQNr/vcab17.webp",VTVcab 17 On Trending TV
+http://khaitv.giize.com:8080/tvmienphi/getv.php?id=186
+#EXTINF:0 group-title="SCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/13/ONECHANNEL.jpg",VTVcab 19 On Film TV
+http://khaitv.giize.com:8080/tvmienphi/getv.php?id=177
+#EXTINF:0 group-title="SCTV" tvg-logo="https://i.ibb.co/HHfL7Dq/cocab20.webp",VTVcab 20 On V Family
+http://khaitv.giize.com:8080/tvmienphi/getv.php?id=187
+
+
+
+
+
+
+#EXTINF:0 group-title="SCTV" tvg-logo="",Box Movie 1
+http://khaitv.giize.com:8080/tvmienphi/getv.php?id=159
+#EXTINF:0 group-title="SCTV" tvg-logo="",Box Music
+http://khaitv.giize.com:8080/tvmienphi/getv.php?id=112
+#EXTINF:0 group-title="SCTV" tvg-logo="",DR Fit
+http://khaitv.giize.com:8080/tvmienphi/getv.php?id=162
+#EXTINF:0 group-title="SCTV" tvg-logo="",Happy Kids
+http://khaitv.giize.com:8080/tvmienphi/getv.php?id=212
+#EXTINF:0 group-title="SCTV" tvg-logo="",Hollywood
+http://khaitv.giize.com:8080/tvmienphi/getv.php?id=160
+#EXTINF:0 group-title="SCTV" tvg-logo="",Planet Earth
+http://khaitv.giize.com:8080/tvmienphi/getv.php?id=135
+#EXTINF:0 group-title="SCTV" tvg-logo="",Woman
+http://khaitv.giize.com:8080/tvmienphi/getv.php?id=163
