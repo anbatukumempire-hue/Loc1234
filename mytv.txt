@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://lichphatsong.site/schedule/epg.xml"
+#EXTM3U url-tvg="https://lichphatsong.site/schedule/epg.xml"
 #------------------------VTV------------------------#
 #EXTINF:0 tvg-id="vtv1hd" group-title=" VTV" tvg-logo="https://i.imgur.com/nfkmvAY.png" catchup="default" catchup-days="2" catchup-source="http://sv.cvtv.xyz:3000/mytvod.m3u8?id=210&time=${start}&offset=${duration},VTV1 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57
@@ -278,7 +278,7 @@ http://khaitv.giize.com:1979/mytv/new/get.php?id=200
 #EXTINF:0 tvg-id="onsportsplus" group-title="VTVcab" tvg-logo="https://i.imgur.com/cFs8OVb.png",ON Sports+
 http://khaitv.giize.com:1979/mytv/new/get.php?id=203
 #EXTINF:0 tvg-id="onfootball" group-title="VTVcab" tvg-logo="https://i.imgur.com/WAxiIfP.png",ON Football HD
-http://khaitv.giize.com:1979/mytv/new/get.php?id=207
+http://khaitv.giize.com:1979/mytv/new/get.php?id=208
 #EXTINF:0 tvg-id="onsportsnews" group-title="VTVcab" tvg-logo="https://i.imgur.com/wpRXpJg.png",ON Sports News
 http://khaitv.giize.com:1979/mytv/new/get.php?id=441
 #EXTINF:0 tvg-id="ongolf" group-title="VTVcab" tvg-logo="https://i.imgur.com/BGF2I58.png",ON Golf
@@ -456,3 +456,4 @@ http://khaitv.giize.com:8080/tvmienphi/getv.php?id=160
 http://khaitv.giize.com:8080/tvmienphi/getv.php?id=135
 #EXTINF:0 group-title="SCTV" tvg-logo="",Woman
 http://khaitv.giize.com:8080/tvmienphi/getv.php?id=163
+
