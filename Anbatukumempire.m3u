@@ -72,7 +72,7 @@ https://ace.hoiquan.click/module/IPTV/?id=kcinehd&accKenh=Loc2k13
 https://ace.hoiquan.click/module/IPTV/?id=kactionhd&accKenh=Loc2k13
 #EXTINF:0 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/6yiAtRg.png",K+ Sport 1
 https://ace.hoiquan.click/module/IPTV/?id=ksport1hd&accKenh=Loc2k13
-EXTINF:0 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/EFeyqYX.png",K+ Sport 2
+#EXTINF:0 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/EFeyqYX.png",K+ Sport 2
 https://ace.hoiquan.click/module/IPTV/?id=ksport2hd&accKenh=Loc2k13
 #EXTINF:0 tvg-id="kkidshd" group-title="K+" tvg-logo="https://i.imgur.com/erWqYxh.png",K+ Kids
 https://ace.hoiquan.click/module/IPTV/?id=kkidshd&accKenh=Loc2k13
