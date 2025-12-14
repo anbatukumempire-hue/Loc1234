@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://lichphatsong.site/schedule/epg.xml"
+#EXTM3U url-tvg="https://lichphatsong.site/schedule/epg.xml.gz"
 #------------------------VTV------------------------#
 #EXTINF:0 tvg-id="vtv1hd" group-title=" VTV" tvg-logo="https://i.imgur.com/nfkmvAY.png",VTV1
 https://live.fptplay53.net/fnxch2/vtv1hd_abr.smil/chunklist.m3u8
@@ -82,6 +82,14 @@ https://ace.hoiquan.click/module/IPTV/?id=sctv6hd&accKenh=Loc2k13
 https://ace.hoiquan.click/module/IPTV/?id=sctv7hd&accKenh=Loc2k13
 #EXTINF:0 tvg-id="sctv8hd" group-title="SCTV" tvg-logo="https://i.imgur.com/NULoCoA.png",SCTV8
 https://ace.hoiquan.click/module/IPTV/?id=sctv8hd&accKenh=Loc2k13
+#EXTINF:0 tvg-id="sctv9hd" group-title="SCTV" tvg-logo="https://i.imgur.com/6dvyvea.png",SCTV9
+https://ace.hoiquan.click/module/IPTV/?id=sctv9hd&accKenh=Loc2k13
+#EXTINF:0 tvg-id="sctv11hd" group-title="SCTV" tvg-logo="https://i.imgur.com/AP2o4bW.png",SCTV11
+https://ace.hoiquan.click/module/IPTV/?id=sctv11hd&accKenh=Loc2k13
+#EXTINF:0 tvg-id="sctv12hd" group-title="SCTV" tvg-logo="https://i.imgur.com/5nrSZd8.png",SCTV12
+https://ace.hoiquan.click/module/IPTV/?id=sctv12hd&accKenh=Loc2k13
+#EXTINF:0 tvg-id="sctv13hd" group-title="SCTV" tvg-logo="https://i.imgur.com/5nrSZd8.png",SCTV13
+https://ace.hoiquan.click/module/IPTV/?id=sctv13hd&accKenh=Loc2k13
 
 #EXTINF:0 tvg-id="kcinehd" group-title="K+" tvg-logo="https://i.imgur.com/As4bwUs.png",K+ Cine
 https://ace.hoiquan.click/module/IPTV/?id=kcinehd&accKenh=Loc2k13
