@@ -1,1 +1,15 @@
+body{margin:0;background:#111;color:#fff;font-family:sans-serif}
+.player{height:220px;background:#000;position:relative}
+video{width:100%;height:100%}
+.loading{position:absolute;inset:0;display:flex;
+align-items:center;justify-content:center;
+background:rgba(0,0,0,.6);text-align:center}
+
+.servers{text-align:center;padding:10px}
+.servers button{margin:5px;padding:8px 14px}
+
+.channels{display:grid;grid-template-columns:repeat(3,1fr);
+gap:10px;padding:10px}
+.channel{text-align:center}
+.channel img{width:100%;border-radius:8px}
 
