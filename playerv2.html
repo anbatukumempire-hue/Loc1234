@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>IPTV M3U8 Player - Video.js</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Video.js CSS -->
+<link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  background: #020617;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  padding: 12px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 1px solid #1e293b;
+}
+
+.container {
+  padding: 12px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #16a34a;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #15803d;
+}
+
+.video-js {
+  width: 100%;
+  max-height: 70vh;
+  border-radius: 12px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">📺 IPTV M3U8 Player (Video.js)</div>
+
+<div class="container">
+  <input id="m3u8" placeholder="Dán link M3U8 vào đây...">
+  <button onclick="playStream()">▶ Xem</button>
+
+  <video
+    id="player"
+    class="video-js vjs-default-skin"
+    controls
+    preload="auto">
+  </video>
+</div>
+
+<!-- Video.js -->
+<script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+
+<script>
+const player = videojs('player', {
+  fluid: true,
+  autoplay: false,
+  controls: true
+});
+
+function playStream() {
+  const url = document.getElementById("m3u8").value.trim();
+  if (!url) {
+    alert("Chưa nhập link M3U8");
+    return;
+  }
+
+  player.src({
+    src: url,
+    type: 'application/x-mpegURL'
+  });
+
+  player.play();
+}
+</script>
+
+</body>
+</html>
