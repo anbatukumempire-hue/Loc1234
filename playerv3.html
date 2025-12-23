@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>IPTV M3U8 Player - jPlayer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<!-- jPlayer -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jplayer/2.9.2/skin/blue.monday/jplayer.blue.monday.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jplayer/2.9.2/jplayer/jquery.jplayer.min.js"></script>
+
+<!-- HLS -->
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+
+<style>
+body {
+  margin: 0;
+  background: #020617;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  padding: 12px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.container {
+  padding: 12px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">📺 IPTV M3U8 Player (jPlayer)</div>
+
+<div class="container">
+  <input id="m3u8" placeholder="Dán link M3U8 vào đây...">
+  <button id="play">▶ Xem</button>
+
+  <!-- jPlayer -->
+  <div id="jquery_jplayer"></div>
+  <div id="jp_container" class="jp-video jp-video-360p">
+    <div class="jp-type-single">
+      <div class="jp-gui jp-interface">
+        <div class="jp-video-play">
+          <button class="jp-video-play-icon">play</button>
+        </div>
+        <div class="jp-controls-holder">
+          <div class="jp-controls">
+            <button class="jp-play">play</button>
+            <button class="jp-pause">pause</button>
+            <button class="jp-stop">stop</button>
+          </div>
+          <div class="jp-progress">
+            <div class="jp-seek-bar">
+              <div class="jp-play-bar"></div>
+            </div>
+          </div>
+          <div class="jp-volume-controls">
+            <button class="jp-mute">mute</button>
+            <button class="jp-volume-max">max</button>
+            <div class="jp-volume-bar">
+              <div class="jp-volume-bar-value"></div>
+            </div>
+          </div>
+          <div class="jp-time-holder">
+            <div class="jp-current-time"></div>
+            <div class="jp-duration"></div>
+          </div>
+          <div class="jp-full-screen">
+            <button class="jp-full-screen">full</button>
+            <button class="jp-restore-screen">restore</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+let hls;
+const video = document.createElement("video");
+video.setAttribute("playsinline", "");
+video.setAttribute("webkit-playsinline", "");
+video.setAttribute("controls", "");
+
+$("#jquery_jplayer").jPlayer({
+  ready: function () {
+    $(this).jPlayer("setMedia", {
+      m4v: ""
+    });
+  },
+  supplied: "m4v",
+  size: {
+    width: "100%",
+    height: "auto"
+  },
+  cssSelectorAncestor: "#jp_container",
+  useStateClassSkin: true,
+  autoBlur: false,
+  smoothPlayBar: true,
+  keyEnabled: true
+});
+
+$("#play").on("click", function () {
+  const url = $("#m3u8").val().trim();
+  if (!url) {
+    alert("Chưa nhập link M3U8");
+    return;
+  }
+
+  if (hls) hls.destroy();
+
+  if (Hls.isSupported()) {
+    hls = new Hls();
+    hls.loadSource(url);
+    hls.attachMedia(video);
+    hls.on(Hls.Events.MANIFEST_PARSED, function () {
+      $("#jquery_jplayer").jPlayer("setMedia", {
+        m4v: url
+      }).jPlayer("play");
+    });
+  } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+    $("#jquery_jplayer").jPlayer("setMedia", {
+      m4v: url
+    }).jPlayer("play");
+  } else {
+    alert("Trình duyệt không hỗ trợ HLS");
+  }
+});
+</script>
+
+</body>
+</html>
