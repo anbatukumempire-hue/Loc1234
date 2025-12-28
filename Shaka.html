@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Shaka ClearKey Neon Player</title>
+
+<!-- Shaka -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.16.3/shaka-player.compiled.js"></script>
+
+<!-- Plyr -->
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css"/>
+<script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+
+<style>
+:root {
+  --neon: #22d3ee;
+  --bg: #020617;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background: radial-gradient(circle at top, #020617, #000);
+  color: #e5e7eb;
+  font-family: system-ui, Arial;
+  padding: 16px;
+  animation: bgFade 1s ease;
+}
+
+.box {
+  max-width: 900px;
+  margin: auto;
+  animation: slideFade .8s cubic-bezier(.4,0,.2,1);
+}
+
+h2 {
+  text-align: center;
+  color: var(--neon);
+  text-shadow: 0 0 14px var(--neon);
+  animation: glow 2.5s ease-in-out infinite alternate;
+}
+
+input, button, textarea {
+  width: 100%;
+  padding: 14px;
+  margin-top: 12px;
+  border-radius: 14px;
+  border: 1px solid #0f172a;
+  background: #020617;
+  color: #e5e7eb;
+  font-size: 16px;
+  transition: all .25s ease;
+}
+
+textarea { resize: none; }
+
+input:focus, textarea:focus {
+  outline: none;
+  transform: scale(1.02);
+  box-shadow: 0 0 18px var(--neon);
+}
+
+button {
+  background: linear-gradient(135deg, #22d3ee, #0ea5e9);
+  border: none;
+  color: #020617;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 0 25px #22d3eeaa;
+  animation: pulse 1.2s infinite;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+.output {
+  margin-top: 16px;
+  padding: 14px;
+  border-radius: 14px;
+  background: #020617;
+  border: 1px solid #0f172a;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all .5s ease;
+}
+
+.output.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+label {
+  font-size: 13px;
+  opacity: .8;
+}
+
+/* Video */
+video {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 16px;
+  background: black;
+  box-shadow: 0 0 30px #0ea5e944;
+  transform: scale(.96);
+  opacity: 0;
+  transition: all .6s ease;
+}
+
+/* Ready */
+video.ready {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Switching animation */
+video.switching {
+  opacity: 0;
+  transform: scale(0.94);
+  filter: blur(2px);
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+  * {
+    animation-duration: .6s !important;
+    transition-duration: .25s !important;
+  }
+
+  video {
+    box-shadow: 0 0 12px #0ea5e955;
+  }
+
+  button:hover {
+    animation: none;
+  }
+}
+
+/* Reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* Keyframes */
+@keyframes slideFade {
+  from { opacity:0; transform: translateY(20px); }
+  to { opacity:1; transform: translateY(0); }
+}
+
+@keyframes glow {
+  from { text-shadow: 0 0 8px var(--neon); }
+  to { text-shadow: 0 0 20px var(--neon); }
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 18px #22d3ee88; }
+  50% { box-shadow: 0 0 30px #22d3ee; }
+  100% { box-shadow: 0 0 18px #22d3ee88; }
+}
+
+@keyframes bgFade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+</style>
+</head>
+
+<body>
+<div class="box">
+  <h2>⚡ Shaka ClearKey Neon Player</h2>
+
+  <input id="mpd" placeholder="🔗 Nhập link MPD (.mpd)">
+  <input id="kidkey" placeholder="🔑 Nhập kid:key (HEX hoặc Base64URL)">
+
+  <button onclick="loadVideo()">▶ PLAY</button>
+
+  <div class="output" id="output">
+    <label>KID (Base64URL)</label>
+    <textarea id="kidOut" rows="2" readonly></textarea>
+
+    <label>KEY (Base64URL)</label>
+    <textarea id="keyOut" rows="2" readonly></textarea>
+  </div>
+
+  <video id="video" controls></video>
+</div>
+
+<script>
+const video = document.getElementById('video');
+const output = document.getElementById('output');
+const player = new shaka.Player(video);
+new Plyr(video);
+
+function isHex(str) {
+  return /^[0-9a-fA-F]{32}$/.test(str);
+}
+
+function hexToBase64Url(hex) {
+  const bytes = new Uint8Array(hex.match(/.{2}/g).map(h => parseInt(h, 16)));
+  let bin = '';
+  bytes.forEach(b => bin += String.fromCharCode(b));
+  return btoa(bin).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');
+}
+
+async function loadVideo() {
+  const mpd = document.getElementById('mpd').value.trim();
+  const input = document.getElementById('kidkey').value.trim();
+  if (!mpd || !input.includes(':')) {
+    alert('Thiếu MPD hoặc kid:key');
+    return;
+  }
+
+  video.classList.add('switching');
+  video.classList.remove('ready');
+
+  let [kid, key] = input.split(':');
+
+  if (isHex(kid)) {
+    kid = hexToBase64Url(kid);
+    key = hexToBase64Url(key);
+  }
+
+  document.getElementById('kidOut').value = kid;
+  document.getElementById('keyOut').value = key;
+  output.classList.add('show');
+
+  player.configure({
+    drm: { clearKeys: { [kid]: key } }
+  });
+
+  try {
+    await player.unload();
+    await player.load(mpd);
+
+    requestAnimationFrame(() => {
+      video.classList.remove('switching');
+      video.classList.add('ready');
+    });
+  } catch (e) {
+    console.error(e);
+    alert('Load video thất bại');
+    video.classList.remove('switching');
+  }
+}
+</script>
+</body>
+</html>
