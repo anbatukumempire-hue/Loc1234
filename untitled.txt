@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Shaka ClearKey Player</title>
+
+  <!-- Shaka -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.8.2/shaka-player.compiled.js"></script>
+
+  <!-- Plyr -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.css" />
+  <script src="https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.polyfilled.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      background: #0f0f0f;
+      font-family: Arial, sans-serif;
+      color: #fff;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 15px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .controls {
+      background: #1c1c1c;
+      padding: 12px;
+      border-radius: 10px;
+      margin-bottom: 12px;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 8px;
+      border-radius: 6px;
+      border: none;
+      outline: none;
+      font-size: 14px;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background: #00b3ff;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #0099dd;
+    }
+
+    video {
+      width: 100%;
+      border-radius: 12px;
+      background: #000;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>🎬 Shaka Player + ClearKey</h2>
+
+  <div class="controls">
+    <input id="mpd" placeholder="Nhập link MPD (.mpd)"
+      value="https://livecdn.seenow.vn/livesnv2/VTV2_HD/manifest.mpd">
+
+    <input id="kid" placeholder="Nhập KID"
+      value="a7c942778e874d43be92b8d0a0cd11b4">
+
+    <input id="key" placeholder="Nhập KEY"
+      value="6d54358306571658ffdb952c6560688b">
+
+    <button onclick="loadStream()">▶ Phát</button>
+  </div>
+
+  <video id="video" playsinline controls></video>
+</div>
+
+<script>
+  let player;
+  let plyr;
+
+  async function loadStream() {
+    const mpd = document.getElementById('mpd').value.trim();
+    const kid = document.getElementById('kid').value.trim();
+    const key = document.getElementById('key').value.trim();
+
+    const video = document.getElementById('video');
+
+    if (player) {
+      await player.destroy();
+    }
+
+    player = new shaka.Player(video);
+
+    player.addEventListener('error', e => {
+      console.error('Shaka error', e.detail);
+      alert('Không phát được stream (xem console)');
+    });
+
+    player.configure({
+      drm: {
+        clearKeys: {
+          [kid]: key
+        }
+      }
+    });
+
+    try {
+      await player.load(mpd);
+      console.log('Load thành công');
+
+      if (!plyr) {
+        plyr = new Plyr(video, {
+          ratio: '16:9',
+          controls: [
+            'play', 'progress', 'current-time',
+            'mute', 'volume', 'settings', 'fullscreen'
+          ]
+        });
+      }
+    } catch (err) {
+      console.error(err);
+      alert('Load MPD thất bại');
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', loadStream);
+</script>
+
+</body>
+</html>
